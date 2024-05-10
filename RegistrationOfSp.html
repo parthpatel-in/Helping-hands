@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- Designined by CodingLab - youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Registration | SP </title>
+    <link rel="stylesheet" href="css/RegistrationOfSp.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Registration For Service Provider</div>
+    <div class="content">
+      <form action="php/registrationOfSp.php" method="post" class="RegistrationOfSp">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" class="uname" placeholder="Enter your name" required name="uname">
+            <span class="errUname" style="color: red;"></span>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" class="email" placeholder="Enter your email" required name="email">
+            <span class="errEmail" style="color: red;"></span>
+          </div>
+          <div class="input-box">
+            <span class="details">Contact Number</span>
+            <input type="text" class="contact" placeholder="Enter your number" required name="contact">
+            <span class="errContact" style="color: red;"></span>
+          </div>
+          <div class="input-box">
+            <span class="details">Service Name</span>
+            <input type="text" class="service" placeholder="Service Name" required name="service">
+            <span class="errService" style="color: red;"></span>
+          </div>
+          <!-- <div class="input-box">
+            <span class="details">Price</span>
+            <input type="number" class="price" max="1000" min="100" placeholder="Price of Service Minimum-100" required name="price">
+            <span class="errPrice" style="color: red;"></span>
+          </div> -->
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" class="pw" placeholder="Enter your password" required name="pw">
+            <span class="errPw" style="color: red;"></span>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="password" class="confirmPw" placeholder="Confirm your password" required name="confirmPw">
+            <span class="errConfirmPw" style="color: red;"></span>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="RegistrationOfSp.js"></script>
+</body>
+</html>

@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title> Helping Hands </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+        <!-- Specify the path to your favicon -->
+        <link rel="icon" href="img/HH ICON.jpg" type="img/x-icon" width="120px">
+    
+    
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- <link href="css/loginstyle.css" rel="stylesheet"> -->
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light d-none d-lg-block">
+        <div class="row align-items-center top-bar">
+            <div class="col-lg-3 col-md-12 text-center text-lg-start">
+                <a href="#" name="top" class="navbar-brand m-0 p-0">
+                    <h1 class="text-primary m-0"> Helping Hands </h1>
+                </a>
+            </div>
+            <div class="col-lg-9 col-md-12 text-end">
+                <!-- <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="fa fa-map-marker-alt text-primary me-2"></i>
+                    <p class="m-0">123 Street, New York, USA</p>
+                </div> -->
+                <div class="h-100 d-inline-flex align-items-center me-4">
+                    <i class="far fa-envelope-open text-primary me-2"></i>
+                    <p class="m-0"> helpinghands1010@gmail.com</p>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
+                    <!-- <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a> -->
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
+            <a href="" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
+                <h1 class="text-primary m-0"> Helping Hands </h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav me-auto">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link">Services</a>
+                    <a href="registrationOfSp.html" class="nav-item nav-link">become partner</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="login.html" class="nav-item nav-link">Login</a>
+                    
+                </div>
+                
+                <!-- ********************* search bar ********************* -->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success"  onclick="search()" type="submit">Search</button>
+                </form>
+                
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/crousal1.png" alt="crousal1">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Electric
+                                    Services</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Efficient Residential
+                                    Electric Services</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2"> where safety meets efficiency to power up your home or business, ensuring seamless connectivity and peace of mind.</p>
+                                <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Free Quote</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/crousal2.png" alt="">
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Plumbing & Repairing
+                                    Services</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Efficient Commercial Plumbing
+                                    Services</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2"> it ensure seamless flow and reliability, resolving issues with precision and care to keep your home running smoothly.</p>
+                                <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Free Quote</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/crousal3.png" alt="img">
+                <div class="position-absolute top-0 start-3 w-100 h-100 d-flex align-items-center"
+                    style="background: rgba(0, 0, 0, .4);">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">cleaning
+                                    Services</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Efficient Commercial Cleaning
+                                    Services</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">our comprehensive cleaning services cater to every need, ensuring a spotless and welcoming atmosphere.</p>
+                                <!-- <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read More</a>
+                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Free Quote</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    </div>
+
+    <!-- Carousel End -->
+
+
+    <!-- Service Start -->
+
+    <!-- Service End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="text-secondary text-uppercase">About Us</h6>
+                    <h1 class="mb-4">We Are Trusted Company </h1>
+                    <p class="mb-4">Welcome to Helping Hands, your premier destination for all your home service needs , we are dedicated to providing top-quality services to homeowners in  and beyond.</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Residential & commercial Home service</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Quality services at affordable prices</p>
+                    <!-- <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Immediate 24/ 7 emergency services</p>
+                    <div class="bg-primary d-flex align-items-center p-4 mt-5">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
+                            <i class="fa fa-phone-alt fa-2x text-primary"></i>
+                        </div>
+                        <div class="ms-3">
+                            <p class="fs-5 fw-medium mb-2 text-white">Emergency 24/7</p>
+                            <h3 class="m-0 text-secondary">+012 345 6789</h3>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="col-lg-6 pt-4" style="min-height: 500px;">
+                    <div class="position-relative h-100 wow fadeInUp" data-wow-delay="0.5s">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/serviceprovider2.png" style="object-fit: cover; padding: 0 0 50px 100px;" alt="">
+                        <!-- <img class="position-absolute start-0 bottom-0 img-fluid bg-white pt-2 pe-2 w-50 h-50" src="img/serviceprovider1.png" style="object-fit: cover;" alt=""> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+   
+
+
+    <!-- Service Start -->
+        <div class="container-fluid py-5 px-4 px-lg-0">
+         <div class="row g-0">
+            <!-- <div class="col-lg-3 d-none d-lg-flex">
+                <div class="d-flex align-items-center justify-content-center bg-primary w-100 h-100">
+                    <h1 class="display-3 text-white m-0" style="transform: rotate(-90deg);">15 Years Experience</h1>
+                </div>
+            </div>
+             -->
+            <div class="col-md-12 col-lg-12">
+                <div class="ms-lg-5 ps-lg-5">
+                    <!-- <div class="text-center text-lg-start wow fadeInUp" data-wow-delay="0.1s">
+                        <h6 class="text-secondary text-uppercase">Our Services</h6>
+                        <h1 class="mb-5">Explore Our Services</h1>
+                    </div> -->
+                    <div class="container-xxl py-6">
+                        <div class="container">
+                            <div class="section-title text-center">
+                                <h1 class="display-5 mb-5">Explore Our Services</h1>
+                            </div>
+                            <div class="row g-4">
+                                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="service-item">
+                                        <div class="overflow-hidden">
+                                            <img class="img-fluid" src="img/cleaning2.png" alt="">
+                                        </div>
+                                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                                            <h4 class="mb-3">Cleaning </h4>
+                                            <p> our comprehensive cleaning services cater to every need, ensuring a spotless and welcoming atmosphere.
+                                            </p>
+                                            <a class="fw-medium" href="cleaner.html">Read More<i
+                                                    class="fa fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="service-item">
+                                        <div class="overflow-hidden">
+                                            <img class="img-fluid" src="img/solor.png" alt="">
+                                        </div>
+                                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                                            <h4 class="mb-3">Solor Energy</h4>
+                                            <p> our solar services harness the power of the sun to illuminate your path towards a greener future.
+                                            </p>
+                                            <a class="fw-medium" href="solor.html">Read More<i
+                                                    class="fa fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="service-item">
+                                        <div class="overflow-hidden">
+                                            <img class="img-fluid" src="img/garden.jpg" alt="">
+                                        </div>
+                                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                                            <h4 class="mb-3">Garden care</h4>
+                                            <p> transforming outdoor spaces into flourishing havens of tranquility and charm.
+                                            </p>
+                                            <a class="fw-medium" href="gardener.html">Read More<i
+                                                    class="fa fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="service-item">
+                                        <div class="overflow-hidden">
+                                            <img class="img-fluid" src="img/renovation.png" alt="">
+                                        </div>
+                                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                                            <h4 class="mb-3">Wooden Floor</h4>
+                                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
+                                            </p>
+                                            <a class="fw-medium" href="">Read More<i
+                                                    class="fa fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="service-item">
+                                        <div class="overflow-hidden">
+                                            <img class="img-fluid" src="img/plumber.png" alt="">
+                                        </div>
+                                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                                            <h4 class="mb-3">Wooden Furniture</h4>
+                                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
+                                            </p>
+                                            <a class="fw-medium" href="">Read More<i
+                                                    class="fa fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="service-item">
+                                        <div class="overflow-hidden">
+                                            <img class="img-fluid" src="img/carpenting.png" alt="">
+                                        </div>
+                                        <div class="p-4 text-center border border-5 border-light border-top-0">
+                                            <h4 class="mb-3">Custom Work</h4>
+                                            <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.
+                                            </p>
+                                            <a class="fw-medium" href="">Read More<i
+                                                    class="fa fa-arrow-right ms-2"></i></a>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-2 justify-content-center py-5">
+                        <a href="service.html"><button class="btn btn-primary d-inline-flex align-items-center" type="button">
+                            More services....
+                             
+                        </button></a>
+                    </div>
+
+
+
+                
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+    <!-- Service End -->
+
+
+    <!-- Booking Start -->
+    
+           
+        
+        <!-- <div class="container position-relative wow fadeInUp" data-wow-delay="0.1s" style="margin-top: -6rem;">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="bg-light text-center p-5">
+                        <h1 class="mb-4">Book For A Service</h1>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;">
+                                        <option selected>Select A Service</option>
+                                        <option value="1">Service 1</option>
+                                        <option value="2">Service 2</option>
+                                        <option value="3">Service 3</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="date" id="date1" data-target-input="nearest">
+                                        <input type="text"
+                                            class="form-control border-0 datetimepicker-input"
+                                            placeholder="Service Date" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Special Request"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Book Now</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   -->
+    <!-- Booking End -
+
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center ">
+                <h6 class="text-secondary text-uppercase">Our Technicians</h6>
+                <h1 class="mb-5">Our Expert Technicians</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/serviceprovider1.png" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">Alice Johnson</h5>
+                                <small>Renovator</small>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">Olivia Taylor</h5>
+                                <small>Cleaner</small>
+                            </div>
+                            <!-- <div class="bg-primary">
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">Michael Smith</h5>
+                                <small>Plumber</small>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/serviceprovider2.png" alt="">
+                        </div>
+                        <div class="team-text">
+                            <div class="bg-light">
+                                <h5 class="fw-bold mb-0">Benjamin Clark</h5>
+                                <small>Carpenter</small>
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5 " data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="text-secondary text-uppercase">Feedback</h2>
+                <h3 class="mb-5">Our Clients Say!</h3>
+            </div>
+            <div class="owl-carousel testimonial-carousel position-relative " data-wow-delay="0.1s">
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">"I recently had a plumbing emergency and your team came to the rescue! From the moment I called, your staff was courteous and helpful.</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Sarah Johnson </h5>
+                    <p class="m-0">Software Engineer</p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">"Wow, what a fantastic job your cleaning team did! My house has never looked better. They paid attention to every detail, leaving no corner untouched.</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">David Miller</h5>
+                    <p class="m-0">Graphic Designer</p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">"Your maintenance team has been a lifesaver for me. They've handled everything from fixing my leaky faucet to maintaining my HVAC system</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Andrew Wilson</h5>
+                    <p class="m-0"> Architect</p>
+                </div>
+                <div class="testimonial-item text-center">
+                    <div class="testimonial-text bg-light text-center p-4 mb-4">
+                        <p class="mb-0">I recently completed a kitchen renovation with your team, and I couldn't be happier with the outcome. From the initial design consultation to the final touches</p>
+                    </div>
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-2" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                    <div class="mb-2">
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                        <small class="fa fa-star text-secondary"></small>
+                    </div>
+                    <h5 class="mb-1">Jessica Davis</h5>
+                    <p class="m-0"> Physician</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <!-- <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p> -->
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>helpinghands1010@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Links</h4>
+                    <!-- <a class="btn btn-link" href="">Drain Cleaning</a> -->
+                    <a class="btn btn-link" href="about.html">About US</a>
+                    <a class="btn btn-link" href="contact.html">Contact US</a>
+                    <!-- <a class="btn btn-link" href="">Pages</a> -->
+                    <a class="btn btn-link" href="">Broken Pipe</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="cleaner.html">cleaning</a>
+                    <a class="btn btn-link" href="solor.html">solar</a>
+                    <a class="btn btn-link" href="gardener.html">garden</a>
+                    <a class="btn btn-link" href="renovation.html">renovation</a>
+                    <a class="btn btn-link" href="plumber.html">plumber</a>
+                    <a class="btn btn-link" href="carpenter.html">carpenting</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Newsletter</h4>
+                    <p>visit www.helpingHandsblog.com</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Helping Hands</a>, All Right Reserved.
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <!-- <a href="top" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a> -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    
+</body>
+
+</html>
